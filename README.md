@@ -1,4 +1,4 @@
-# markdown-viewer-app
+# markdown-editor-app
 
 [![timespent](https://img.shields.io/badge/timespent-3h13m-green.svg?style=flat-square)]()
 
