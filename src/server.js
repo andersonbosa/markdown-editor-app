@@ -3,7 +3,7 @@
 const express = require('express')
 const path = require('path')
 
-const PUBLIC_PATH = path.resolve(__dirname, '/public')
+const PUBLIC_PATH = path.join(__dirname, '/public')
 const VIEWS_PATH = path.join(__dirname, 'views')
 
 const ServerApp = express()

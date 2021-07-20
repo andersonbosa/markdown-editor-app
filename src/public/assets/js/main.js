@@ -29,8 +29,8 @@ function convertToMarkdown () {
 
 window.document.addEventListener(
   'selectionchange', evt => {
-    /* delay trigger */
     setTimeout(
+      /* delay trigger */
       () => convertToMarkdown(), 150
     )
   }

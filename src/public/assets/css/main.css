@@ -3,6 +3,7 @@ body,
 section,
 .full-height {
   height: 100%;
+  background-color: #a4cde2;
 }
 
 #pad {
