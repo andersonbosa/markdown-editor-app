@@ -1,13 +1,20 @@
 html,
 body,
 section,
-.full-height {
+.full-window {
   height: 100%;
-  background-color: #a4cde2;
+  width: 100%;
 }
 
-#pad {
-  font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+body {
+  background-color: #a4cde2;
+  overflow: hidden;
+}
+
+#textSource {
+  font-family: monospace;
+  min-width: 80rem;
+  min-height: 10rem;
 
   border: none;
   overflow: auto;
@@ -19,7 +26,11 @@ section,
   box-shadow: none;
 }
 
-#markdown {
-  overflow: auto;
+#markdownTarget {
+  min-width: 80rem;
+  min-height: 10rem;
+  padding-left: 10px;
+  background: beige;
   border-left: 1px solid black;
+  overflow: auto;
 }

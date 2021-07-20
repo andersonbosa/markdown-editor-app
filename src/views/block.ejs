@@ -2,27 +2,36 @@
 <html lang="en">
 
 <head>
+  <title>Markdown Viewer by @andersonbosa</title>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-  <title>Markdown Viewer</title>
-
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+
+  <!-- @Sixth_1 consume the lib from CDN -->
+  <!-- https://cdnjs.com/libraries/showdown -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/1.9.1/showdown.min.js"
+    integrity="sha512-L03kznCrNOfVxOUovR6ESfCz9Gfny7gihUX/huVbQB9zjODtYpxaVtIaAkpetoiyV2eqWbvxMH9fiSv5enX7bw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- @Sixth_2 now our solution can make use of the function that we need -->
   <script src="assets/js/main.js"></script>
 </head>
 
 <body>
-  <div>
-    <section id="markdown-preview">
+  <section id="markdown-preview">
+    <div>
       <h3> Text </h3>
-      <textarea id="textSource" rows="10" cols="80"></textarea>
+      <textarea id="textSource" rows="10" cols="80" class="full-window"></textarea>
+      <button onclick="addSample()" >Add sample</button>
+    </div>
 
-      <hr />
+    <hr />
 
+    <div>
       <h3> Markdown </h3>
-      <div id="markdownTarget"></div>
-  </div>
+      <div id="markdownTarget" class="full-window"></div>
+    </div>
   </section>
 </body>
 
