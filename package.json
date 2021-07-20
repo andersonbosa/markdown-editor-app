@@ -1,0 +1,8 @@
+{
+  "name": "markdownvi-app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:andersonbosa/markdownvi-app.git",
+  "author": "andersonbosa <anderson.bosa0@gmail.com>",
+  "license": "MIT"
+}
