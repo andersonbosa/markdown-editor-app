@@ -7,4 +7,10 @@
 
 ##### Demo on heroku: 
 
+<!-- 
+sources:
+https://github.com/showdownjs/showdown
+https://www.brmwebdev.com/articles/markdown_and_html
+-->
+
 [app-ideas]: https://github.com/florinpop17/app-ideas#tier-2-intermediate-projects
