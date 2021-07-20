@@ -2,7 +2,7 @@
 
 [![timespent](https://img.shields.io/badge/timespent-3h13m-green.svg?style=flat-square)]()
 
-- [ ] **1) Challenge from [app-ideas][app-ideas]**
+- [x] **1) Challenge from [app-ideas][app-ideas]**
   - **what**: Markdown Previewer Preview
   - **descrip**.: text formatted in GitHub flavored markdown
   - **level**: 2-Intermediate
